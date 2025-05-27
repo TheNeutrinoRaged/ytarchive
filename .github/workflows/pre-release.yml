@@ -1,10 +1,7 @@
 name: build and upload pre-release
 on:
-  push:
-    branches:
-      - "master"
-    tags-ignore:
-      - "*"
+  release: 
+    types: published
 
 jobs:
   build_upload:
