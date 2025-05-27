@@ -31,5 +31,6 @@ jobs:
           files: |
             ytarchive_linux_amd64.zip
             ytarchive_windows_amd64.zip
+            ytarchive_linux_arm64.zip
             SHA2-256SUMS
 
